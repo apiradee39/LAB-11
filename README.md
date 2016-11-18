@@ -8,7 +8,6 @@
 ## การใช้งานแปรงระบายสี (Brush)
 แปรงระบายสี ช่วยให้เราสามารถระบายสีแบบต่างๆ ให้กับรูปร่างต่างๆ ได้ตามต้องการ ใน GDI+ มีแปรงระบายสีอยู่ 5 รูปแบบด้วยกัน ประกอบด้วย ```SolidBrush```, ```HatchBrush```, ```TextureBrush```, ```LinearGradientBrush``` และ ```PathGradientBrush``` ซึ่งทั้งหมดจะอยู่ในคลาส ```Brush``` 
 
-![](https://raw.githubusercontent.com/apiradee39/LAB-11/cfa4cf194037e0bf9b791c63e8efdbd28db75a27/imgs/11.1.png)
 
 ### การระบายสีด้วย SolidBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
@@ -16,13 +15,17 @@
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-1.png">
 </p>
 
-![](https://raw.githubusercontent.com/apiradee39/LAB-11/cfa4cf194037e0bf9b791c63e8efdbd28db75a27/imgs/11.2.png)
+![](https://raw.githubusercontent.com/apiradee39/LAB-11/cfa4cf194037e0bf9b791c63e8efdbd28db75a27/imgs/11.1.png)
+
+
 
 ### การระบายสีด้วย HatchBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
  <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-2.png">
 </p>
+![](https://raw.githubusercontent.com/apiradee39/LAB-11/cfa4cf194037e0bf9b791c63e8efdbd28db75a27/imgs/11.2.png)
+
 
 ### การระบายสีด้วย TextureBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
